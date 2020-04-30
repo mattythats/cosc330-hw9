@@ -1,0 +1,109 @@
+Case 1 - a person buying a Colonial Style house
+  Thank you for choosing HomeDecorator to build your new home!
+  Choose a home style.
+  Enter the number corresponding to your selection.
+  1. Colonial Style       $10000
+  2. Modern Style $15000
+  1
+  Thank you for selecting a home! Would you like to add a fence, pool, or patio?
+  Enter y or n.
+  n
+  You have purchased: Colonial Style
+  With a cost of: $10000
+  Thank you for visiting HomeDecorator!
+  
+Case 2 - a person buying a colonial style house with a patio, a fence, and a pool
+  Thank you for choosing HomeDecorator to build your new home!
+  Choose a home style.
+  Enter the number corresponding to your selection.
+  1. Colonial Style       $10000
+  2. Modern Style $15000
+  1
+  Thank you for selecting a home! Would you like to add a fence, pool, or patio?
+  Enter y or n.
+  y
+  Choose an amenity.
+  Enter the number corresponding to your selection.
+  1. Fence        $500
+  2. Patio        $1000
+  3. Pool $2500
+  2
+  Would you like to add another amenity?
+  y
+  Invalid choice.
+  ^C(base) [mtibebe@localhost hw9]$ javac *.java
+  (base) [mtibebe@localhost hw9]$ java HomeDriver
+  Thank you for choosing HomeDecorator to build your new home!
+  Choose a home style.
+  Enter the number corresponding to your selection.
+  1. Colonial Style       $10000
+  2. Modern Style $15000
+  1
+  Thank you for selecting a home! Would you like to add a fence, pool, or patio?
+  Enter y or n.
+  y
+  Choose an amenity.
+  Enter the number corresponding to your selection.
+  1. Fence        $500
+  2. Patio        $1000
+  3. Pool $2500
+  2
+  Would you like to add another amenity?
+  y
+  Choose an amenity.
+  Enter the number corresponding to your selection.
+  1. Fence        $500
+  2. Patio        $1000
+  3. Pool $2500
+  1
+  Would you like to add another amenity?
+  y
+  Choose an amenity.
+  Enter the number corresponding to your selection.
+  1. Fence        $500
+  2. Patio        $1000
+  3. Pool $2500
+  3
+  Would you like to add another amenity?
+  n
+  You have purchased: Colonial Style Patio Fence Pool
+  With a cost of: $14000
+  Thank you for visiting HomeDecorator!
+
+Case 3 - a person buying a modern style home with a fence and two pools
+  Thank you for choosing HomeDecorator to build your new home!
+  Choose a home style.
+  Enter the number corresponding to your selection.
+  1. Colonial Style       $10000
+  2. Modern Style $15000
+  2
+  Thank you for selecting a home! Would you like to add a fence, pool, or patio?
+  Enter y or n.
+  y
+  Choose an amenity.
+  Enter the number corresponding to your selection.
+  1. Fence        $500
+  2. Patio        $1000
+  3. Pool $2500
+  1
+  Would you like to add another amenity?
+  y
+  Choose an amenity.
+  Enter the number corresponding to your selection.
+  1. Fence        $500
+  2. Patio        $1000
+  3. Pool $2500
+  3
+  Would you like to add another amenity?
+  y
+  Choose an amenity.
+  Enter the number corresponding to your selection.
+  1. Fence        $500
+  2. Patio        $1000
+  3. Pool $2500
+  3
+  Would you like to add another amenity?
+  n
+  You have purchased: Modern Style Fence Pool Pool
+  With a cost of: $20500
+  Thank you for visiting HomeDecorator!
